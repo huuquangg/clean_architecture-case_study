@@ -1,0 +1,8 @@
+
+CREATE TABLE IF NOT EXISTS slot(
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name VARCHAR(255),
+    IsOccupied BIT NOT NULL,
+    OccupiedAt DATETIME,
+    FreeAt DATETIME
+);

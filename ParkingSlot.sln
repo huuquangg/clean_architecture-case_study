@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSlot.Entities", "ParkingSlot.Entities\ParkingSlot.Entities.csproj", "{8277FC83-9C4B-40C7-80C7-EF936EA6DE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSlot.Usecase", "ParkingSlot.Usecase\ParkingSlot.Usecase.csproj", "{AC0F0966-9E48-415D-9EB0-D97E3B4F5318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSlot.Infrastructure", "ParkingSlot.Infrastructure\ParkingSlot.Infrastructure.csproj", "{DFC77A55-BDAC-4288-81A5-7FFC67A64F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSlot.APIs", "ParkingSlot.APIs\ParkingSlot.APIs.csproj", "{051DA25A-66E6-47F7-BC18-5EE4FF53E837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8277FC83-9C4B-40C7-80C7-EF936EA6DE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8277FC83-9C4B-40C7-80C7-EF936EA6DE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8277FC83-9C4B-40C7-80C7-EF936EA6DE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8277FC83-9C4B-40C7-80C7-EF936EA6DE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0F0966-9E48-415D-9EB0-D97E3B4F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0F0966-9E48-415D-9EB0-D97E3B4F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0F0966-9E48-415D-9EB0-D97E3B4F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0F0966-9E48-415D-9EB0-D97E3B4F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC77A55-BDAC-4288-81A5-7FFC67A64F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC77A55-BDAC-4288-81A5-7FFC67A64F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC77A55-BDAC-4288-81A5-7FFC67A64F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC77A55-BDAC-4288-81A5-7FFC67A64F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051DA25A-66E6-47F7-BC18-5EE4FF53E837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051DA25A-66E6-47F7-BC18-5EE4FF53E837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051DA25A-66E6-47F7-BC18-5EE4FF53E837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051DA25A-66E6-47F7-BC18-5EE4FF53E837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
